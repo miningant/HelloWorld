@@ -27,3 +27,13 @@ git push origin master
 --Creating a new branch is quick.
 git checkout -b dev
 git branch
+
+--update readme and commit to branch dev
+git add readme.txt
+git commit -m "commit to branch dev"
+
+-- switch branch to master, readme is different
+git checkout master
+
+-- merge branch dev to master
+git merge dev
