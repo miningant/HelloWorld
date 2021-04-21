@@ -1,12 +1,25 @@
+-- workspace => stage
 git add readme.txt
 
 git status
 
-git remote add origin https://github.com/miningant/HelloWorld.git
+-- stage => git_local
+git commit -m "git command list"
 
+-- show git log
+git log
+
+-- show git command log
+git reflog
+
+
+-- remote related command 
+git remote add origin https://github.com/miningant/HelloWorld.git
 git remote -v
 
 git config --global credential.helper store
 git remote set-url origin git@github.com:miningant/HelloWorld.git
 
+
+-- git_local => git_remote
 git push origin master
