@@ -1,4 +1,4 @@
-https://github.com/miningant/HelloWorld
+https://www.liaoxuefeng.com/wiki/896043488029600
 
 -- workspace => stage
 git add readme.txt
