@@ -23,3 +23,7 @@ git remote set-url origin git@github.com:miningant/HelloWorld.git
 
 -- git_local => git_remote
 git push origin master
+
+--Creating a new branch is quick.
+git checkout -b dev
+git branch
