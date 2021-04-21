@@ -43,3 +43,5 @@ git merge dev
 -- delete branch dev
 git branch -d dev
 git branch
+
+git switch on master
