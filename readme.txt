@@ -44,4 +44,8 @@ git merge dev
 git branch -d dev
 git branch
 
+<<<<<<< HEAD
 git switch on master
+=======
+git switch -c feature1
+>>>>>>> feature1
