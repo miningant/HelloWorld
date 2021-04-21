@@ -1,3 +1,5 @@
+https://github.com/miningant/HelloWorld
+
 -- workspace => stage
 git add readme.txt
 
@@ -33,7 +35,11 @@ git add readme.txt
 git commit -m "commit to branch dev"
 
 -- switch branch to master, readme is different
-git checkout master
+git switch master
 
--- merge branch dev to master
+-- merge branch dev to current branch: "master"
 git merge dev
+
+-- delete branch dev
+git branch -d dev
+git branch
