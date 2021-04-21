@@ -52,3 +52,5 @@ git checkout -b branch-name origin/branch-name
 -- associate local branch with remote branch
 git branch --set-upstream branch-name origin/branch-name
 git pull
+
+git push origin dev
