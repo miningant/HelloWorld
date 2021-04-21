@@ -54,3 +54,15 @@ git branch --set-upstream branch-name origin/branch-name
 git pull
 
 git push origin dev
+
+git tag v0.1 
+git tag -d v0.1
+
+git tag -a v1.0 -m "this is version 1.0"
+
+-- push tag to remote
+git push origin v1.0
+git push origin --tags
+
+-- delete tag of remote
+git push origin :refs/tags/<tagname>
